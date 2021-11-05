@@ -1,0 +1,21 @@
+.text {
+  margin: 50px 0;
+  text-align: center;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+.text_1 {
+  animation-name: anim-1;
+  animation-duration: 0.5s;
+}
+
+@keyframes anim-1 {
+  0% {
+    transform: translateX(-3000px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
